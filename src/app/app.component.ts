@@ -3,8 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls : ['./custom.css']
 })
 export class AppComponent {
-  title = 'Day3';
+  public val: string = 'This is alert popup message from app.com.ts';
+
+  public val2: string= 'This is message for message 2';
 }
